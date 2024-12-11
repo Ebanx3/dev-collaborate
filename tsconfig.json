@@ -1,0 +1,15 @@
+{
+  "files": ["./src/aliases.d.ts"],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": { 
+      "@components/*": ["components/*"], 
+      "@hooks/*":["hooks/*"],
+      "@api":["api/*"]
+    }
+  }
+}

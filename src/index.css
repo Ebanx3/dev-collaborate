@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Roboto Mono", monospace;
+}
+
+::-webkit-scrollbar {
+  width: 0.8em;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #44403c;
+  border-radius: 12px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #57534e;
+}
+
+@property --angle{
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+}
+
+.spinner::after, .spinner::before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background-image: conic-gradient(from var(--angle),transparent 80%, #78716c);
+    z-index: -1;
+    animation: 2s spin linear infinite;
+}
+
+.spinner::before {
+  filter: blur(.5rem);
+}
+
+
+
+.loading-outline::before {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        --angle: 0deg;
+    }
+    to{
+        --angle:360deg;
+    }
+}
