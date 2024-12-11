@@ -1,50 +1,18 @@
-# React + TypeScript + Vite
+# DevCollaborate
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+DevCollaborate es una red social para desarrolladores enfocada en gestionar y fomentar la cooperación en proyectos. Este proyecto personal tiene como objetivo crear una plataforma donde los desarrolladores puedan colaborar, compartir conocimientos y trabajar juntos en proyectos innovadores.
 
-Currently, two official plugins are available:
+## Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Gestión de Proyectos**: Crea, gestiona y colabora en proyectos con otros desarrolladores.
+- **Perfiles de Usuario**: Crea un perfil, muestra tus habilidades y conecta con otros desarrolladores.
+- **Publicaciones**: Publica sobre temas técnicos y comparte tus conocimientos.
+- **Notificaciones**: Recibe notificaciones sobre actualizaciones de proyectos y mensajes.
 
-## Expanding the ESLint configuration
+## Tecnologías Utilizadas
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+- **Frontend**: React, Tailwind CSS
+- **Backend**: Node.js, Express
+- **Base de Datos**: PostgreSQL
+- **Autenticación**: JWT (JSON Web Tokens)
+- **Despliegue**: ---
