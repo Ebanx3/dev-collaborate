@@ -1,6 +1,6 @@
 import { NavLink, useNavigate } from "react-router-dom";
-import { useUserContext } from "@hooks/";
-import { PrimaryButton } from "@components";
+import { useUserContext } from "@hooks/useUserContext";
+import { PrimaryButton } from "@components/PrimaryButton/PrimaryButton";
 
 
 export const Navbar = () => {

@@ -1,4 +1,4 @@
-import { Nuevo } from "@components";
+import { Nuevo } from "@components/Nuevo/Nuevo";
 import { useFetch } from "@hooks/useFetch";
 import { Proyecto as TProyecto } from "types";
 

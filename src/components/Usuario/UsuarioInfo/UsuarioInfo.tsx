@@ -2,7 +2,7 @@ import { Usuario } from "types";
 import { EditUsuarioInfo } from "./EditUsuarioInfo";
 import { useState } from "react";
 import { ConfirmCancelEditButtons } from "./ConfirmCancelEditButtons";
-import { updateUser } from "@api";
+import { updateUser } from "@api/updateUser";
 
 interface Props {
   usuario: Usuario;

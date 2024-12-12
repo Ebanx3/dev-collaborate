@@ -1,4 +1,4 @@
-import { UsuarioCard } from "@components";
+import { UsuarioCard } from "@components/UsuarioCard/UsuarioCard";
 import { useFetch } from "@hooks/useFetch";
 import { Usuario } from "../../types";
 

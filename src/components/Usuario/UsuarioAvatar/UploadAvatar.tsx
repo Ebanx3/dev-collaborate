@@ -1,4 +1,4 @@
-import { uploadNewAvatar } from "@api";
+import { uploadNewAvatar } from "@api/uploadAvatar";
 
 export const UploadAvatar = ({setAvatar}:{setAvatar:(s:string)=>void}) => {
 

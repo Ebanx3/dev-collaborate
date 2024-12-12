@@ -1,8 +1,9 @@
 import { useState } from "react";
 import { validateData } from "../../../validate";
-import { signup } from "@api";
+import { signup } from "@api/signup";
 import { useNavigate } from "react-router-dom";
-import { PrimaryButton, ErrorAlert } from "@components";
+import { PrimaryButton } from "@components/PrimaryButton/PrimaryButton";
+import { ErrorAlert } from "@components/ErrorAlert/ErrorAlert";
 
 export const CrearCuentaForm = () => {
   const [errors, setErrors] = useState<string[]>([]);

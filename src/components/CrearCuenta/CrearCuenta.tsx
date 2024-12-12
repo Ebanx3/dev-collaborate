@@ -1,7 +1,7 @@
 import { useUserContext } from "@hooks/useUserContext";
 import { useEffect } from "react";
 import { useNavigate, Link } from "react-router-dom"
-import { CrearCuentaForm } from "@components";
+import { CrearCuentaForm } from "@components/CrearCuenta/CrearCuentaForm/CrearCuentaForm";
 
 export const CrearCuenta = () => {
     const nav = useNavigate();

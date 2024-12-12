@@ -22,7 +22,7 @@
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true,
     "baseUrl": "./src", 
-    "paths": { "@components": ["components/index"], "@hooks/*": ["hooks/*"], "@api":["api/index"]},
+    "paths": { "@components/*": ["components/*"], "@hooks/*": ["hooks/*"], "@api/*":["api/*"]},
     "composite": true
   },
   "include": ["src"],

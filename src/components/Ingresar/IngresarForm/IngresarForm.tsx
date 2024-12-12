@@ -1,8 +1,8 @@
-import { PrimaryButton } from "@components";
+import { PrimaryButton } from "@components/PrimaryButton/PrimaryButton";
 import { validateData } from "../../../validate";
 import { useState } from "react";
 import { ErrorAlert } from "@components/ErrorAlert/ErrorAlert";
-import { login } from "@api";
+import { login } from "@api/login";
 import { useUserContext } from "@hooks/useUserContext";
 import { useNavigate } from "react-router-dom";
 

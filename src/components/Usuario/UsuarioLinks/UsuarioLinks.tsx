@@ -2,7 +2,7 @@ import { Link as TLink, Usuario } from "types";
 import { AddLinkButton } from "./AddLinkButton";
 import { useState } from "react";
 import { AddLinksModal } from "./AddLinksModal";
-import { updateUser } from "@api";
+import { updateUser } from "@api/updateUser";
 import { Link } from "./Link";
 
 interface Props {

@@ -1,4 +1,4 @@
-import { IngresarForm } from "@components";
+import { IngresarForm } from "./IngresarForm/IngresarForm";
 import { useUserContext } from "@hooks/useUserContext";
 import { useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";

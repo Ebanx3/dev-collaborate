@@ -9,7 +9,7 @@
     "paths": { 
       "@components/*": ["components/*"], 
       "@hooks/*":["hooks/*"],
-      "@api":["api/*"]
+      "@api/*":["api/*"]
     }
   }
 }
